@@ -1,0 +1,12 @@
+/* Basic Setup */
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: brown;
+}

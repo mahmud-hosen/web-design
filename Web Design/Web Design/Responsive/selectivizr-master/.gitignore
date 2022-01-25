@@ -1,0 +1,14 @@
+.sass-cache
+*.map
+*.scssc
+*.swp
+
+*.DS_Store
+*.codekit
+*.sublime-project
+*.sublime-workspace
+
+/.codekit-cache/
+/bower_components/
+
+LICENSE

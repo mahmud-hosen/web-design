@@ -1,0 +1,23 @@
+{
+  "name": "selectivizr_will",
+  "main": "selectivizr.js",
+  "authors": [
+    "william <ganlanyuan@gmail.com>"
+  ],
+  "description": "selectivizr updated.",
+  "keywords": [
+    "selectivizr",
+    "ie6-8",
+    "css3",
+    "selectors"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ganlanyuan/selectivizr",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

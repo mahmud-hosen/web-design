@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+[class*="col-"] {
+    float: left;
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+  /* Navbar Section  */
+
+ .navbar ul{
+    width: 100%;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgba(0, 149, 255, 0.712);
+
+}
+.navbar ul li{
+    float: right;
+    list-style: none;
+    padding: 15px 20px;
+    
+}
+.navbar ul .signupBtn{
+    margin-right: 100px;
+    
+
+}
+.navbar ul li button{
+    list-style-type: none;
+    padding: 4px;
+    width: 115px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,201,183);
+    background-color: rgb(255,255,255);
+    color: rgb(0,201,183);
+}
+.navbar ul .homeItem{
+    background-color: rgba(0,150,255);
+    height: 56px;
+    width: 80px;
+}
+.navbar ul .logo{
+    float: left;
+    margin-left: 8%;  
+}
+.navbar ul li img{
+  margin-top: 8px;
+  width: 71%;
+     
+}
+
+   /* Header */
+
+.header{
+  background-image: url(../img/headerImage.PNG);
+  background-repeat:no-repeat;
+  background-color: black;
+  background-size: 100% auto;
+
+   width: 100%;
+   height: 510px;
+ 
+}
+.headertitle{
+    margin-top: 90px;
+    margin-left: 90px;
+    color: aliceblue;
+}
+
+.header .headerText p{
+    color: aliceblue;
+    margin: 40px 0px;
+    margin-left: 90px;
+    font-size: 18px;
+
+}
+.header .headertitle h1 span{
+    color: rgb(240, 171, 12);
+
+}
+
+.headerLogo{
+    margin-left: 90px;
+    
+}
+.header .headerLogo img{
+    width: 130px;
+    border-radius: 5px;
+
+}
+.header .headerLogo .AppStoreLogo{
+    margin-right: 20px;
+}
+
+.features{
+    background-color: rgb(247, 246, 248);
+    width: 65%;
+    height: 270px;
+    position: absolute;
+    left: 0px;
+    top: 450px;
+    right: 0px;
+    margin: auto;
+    border-bottom:  1px solid rgb(155, 143, 143);
+    
+}
+.features-head{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+.features .features-head p{
+    font-size: 15px;
+     position: absolute;
+    left: 0px;
+    top: 23px;
+    right: 0px;
+    margin: auto;
+    width: 400px;
+    height: 20px;
+   
+
+}
+.features .features-body{
+  
+    
+    height: 110px;
+    border-bottom: 1px solid rgb(235, 227, 227);
+}
+.features .features-body .item img{
+    margin-top:20px;
+    margin-left: 100px;
+    
+    
+  
+    
+}
+
+.features .features-body .item p{
+
+    margin-top: 70px;
+    width: 150px;
+    margin-left: 60px;
+    font-size: 13px;
+    
+}
+
+.features .features-footer{
+     position: absolute;
+    left: 0px;
+    top: 200px;
+    right: 0px;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+
+
+}
+.features .features-footer button{
+    list-style-type: none;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid rgba(0,201,183);
+    color: rgba(0,201,183);
+    height: 35px;
+    width: 200px;
+    
+
+}
+
+/* Family Members */
+.family-memebers{
+
+    height: 460px;
+    width: 96%;
+    float: right;
+    margin-top: 160px;
+    background-image: url(../img/features-mobile2.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+
+
+}
+.family-memebers .left-content{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.family-memebers .left-content h4{
+   color: aliceblue;
+   margin-left: 25px;
+}
+.family-memebers .left-content p{
+   color: aliceblue;
+   margin-top: 5px;
+   font-size: 25px;
+}
+.family-memebers .left-content .description p{
+    max-width: 80%;
+    font-size: 15px;
+    margin-top: 25px;
+
+}
+.family-memebers .left-content button{
+    margin-top: 31px;
+    list-style-type: none;
+    border: 1px solid wheat;
+    padding: 6px;
+    color: rgba(0,201,183);
+    border-radius: 1px;
+}
+
+/* app */
+
+.title{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+

@@ -1,0 +1,298 @@
+/* _________________________*/
+/*       Basic Setup        */
+/* _________________________*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* Default font size 16 px .It convert to 10px all html tag */
+    /* 1 px = 0.1 rem  */
+    /* 62.5% mean 10px  */
+    font-size: 62.5%;
+
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+/* _________________________*/
+/*       Reusable Code      */
+/* _________________________*/
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+section{
+    padding: 8rem 0;
+}
+
+h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+h2::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background-color: #fff;
+    width: 8.5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.box{
+    padding: 1%;
+
+
+}
+
+.box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    
+}
+/* Paragraph */
+.little-description{
+    font-size: 1.8rem;
+    width: 60%;
+    margin: auto;
+    line-height: 3rem;
+
+}
+
+
+/* _________________________*/
+/*       Header Section     */
+/* _________________________*/
+
+.clearfix::after{
+    content: "";
+    display:block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+header{
+
+   /* Image opacity  */
+    background:linear-gradient(rgba(135, 80, 156, 0.9),rgba(135, 80, 156, 0.9)), url(img/hero-bg.jpg);
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    
+    width: auto;
+    height: 3.5rem;
+    margin-top: 3.5rem;
+    float: left;
+}
+/* Main Nav */
+.main-nav{
+    float: right;
+     margin-top: 4rem;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 2.5rem;
+   
+   
+
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #643a7900;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    transition: .3s;
+    display: inline-block;
+
+}
+
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    background-color: #643a79;
+}
+.active{
+    background-color: #643a79;
+     border-radius: 0.3rem;
+}
+
+.hero-text-box{
+    
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.btn:link,
+.btn:visited,
+.btn{
+    color: #fff;
+    background-color: rgb(235,125,75);
+    padding: 1.2rem 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 0.3rem solid rgb(200,106,64);
+    display: inline-block;
+    margin-top: 4.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.6rem;
+    
+}
+
+/* Start services section */
+.services-section{
+    color:#fff;
+    text-align: center;
+    background:linear-gradient(rgba(23,194,164,0.9),rgba(23,194,164,0.9)), 
+    url(img/services-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+
+
+.services-section h2::after{
+    background: #14a58c;
+}
+
+
+/* End services section */
+
+
+
+ /* Start Team Section  */
+
+ .team-section{
+    
+     text-align: center;
+
+    text-align: center;
+    background:linear-gradient(#e7f1f8d8,#e7f1f8d0), 
+    url(img/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+
+ }
+ .team-section h2{
+     color: #3c4761;
+ }
+ .team-section h2::after{
+     background: #c8d9e5;
+ }
+
+ .team-member{
+     margin-top: 4rem;
+     margin-bottom: 3rem;
+     width: 20rem;
+     height: 20rem;
+     border-radius: 50%;
+ }
+
+ .team-section h3{
+     color: #27283d;
+     
+ }
+ .role{
+     color: #30bae7;
+     font-size: 1.6rem;
+     text-transform: capitalize;
+        margin-top: 1rem;
+     display: block;
+ }
+ .team-section .box p{
+     color: #808b9d;
+ }
+ .social-link{
+     margin-top: 5rem;
+ }
+ .social-link ul li{
+     display: inline-block;
+     margin: 0 .5rem;
+ }
+ .social-link ul li a:link{
+    color: #fff;
+ }
+
+ .social-link ul li a:link i::before{
+    
+     background: #bdd1df;
+     width: 2rem;
+     height: 2rem;
+     border-radius: 50%;
+     display: inline-block;
+     font-size: 2rem;
+     padding: 1rem;
+     transition: .5s;
+ }
+
+  .social-link ul li a:hover i::before{
+    
+    background: #393939;
+    transform: rotate(360deg);
+ }
+
+ 
+
+
+
+
+ /* End Team Section  */
+
+
+
+
+
+
+
